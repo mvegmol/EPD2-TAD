@@ -1,0 +1,46 @@
+body {
+  background-color: #eaecf1;
+  color: #080c16;
+}
+.navbar {
+  background-color: #011d41;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #eaecf1 !important;
+}
+.navbar-toggler {
+  border-color: #eaecf1;
+}
+
+.nav-link.active {
+  color: #132f4b !important;
+}
+.dropdown-menu {
+  background-color: #011d41 !important;
+}
+.dropdown-item {
+  color: #eaecf1 !important;
+  background-color: #011d41 !important;
+}
+.dropdown-item:hover {
+  background-color: #132f4b !important;
+}
+.navbar .nav-link.active {
+  color: #61656f; /* Cambia el color del texto activo según lo deseado */
+}
+#testimonios {
+  background-color: #132f4b;
+  color: #eaecf1;
+}
+.text-yellow {
+  color: yellow !important;
+}
+#testimonios {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  background-color: #132f4b;
+  color: #eaecf1;
+}
