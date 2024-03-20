@@ -1,6 +1,6 @@
 body {
-  background-color: #eaecf1;
-  color: #080c16;
+  background-color: #132f4b !important;
+  color: #eaecf1 !important;
 }
 .navbar {
   background-color: #011d41;
@@ -39,6 +39,9 @@ body {
 #main {
   background-color: #132f4b;
   color: #eaecf1;
+}
+footer {
+  background-color: #011d41 !important;
 }
 .navbar-nav .nav-link.text-yellow {
   color: black !important; /* Cambia el color del texto a negro */
