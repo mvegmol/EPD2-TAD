@@ -14,7 +14,7 @@ body {
 }
 
 .nav-link.active {
-  color: #132f4b !important;
+  color: #61656f !important;
 }
 .dropdown-menu {
   background-color: #011d41 !important;
@@ -26,16 +26,12 @@ body {
 .dropdown-item:hover {
   background-color: #132f4b !important;
 }
-.navbar .nav-link.active {
-  color: #61656f; /* Cambia el color del texto activo según lo deseado */
-}
+
 #testimonios {
   background-color: #132f4b;
   color: #eaecf1;
 }
-.text-yellow {
-  color: yellow !important;
-}
+
 #testimonios {
   padding: 0;
   margin: 0;
@@ -43,4 +39,7 @@ body {
 #main {
   background-color: #132f4b;
   color: #eaecf1;
+}
+.navbar-nav .nav-link.text-yellow {
+  color: black !important; /* Cambia el color del texto a negro */
 }
