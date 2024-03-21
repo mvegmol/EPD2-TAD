@@ -46,3 +46,81 @@ footer {
 .navbar-nav .nav-link.text-yellow {
   color: black !important; /* Cambia el color del texto a negro */
 }
+#contacto {
+  background-color: #132f4b;
+  color: #eaecf1;
+  padding: 80px 0;
+}
+#contacto .bi {
+  font-size: 50px !important;
+  color: #132f4b;
+}
+#contacto .bi:hover {
+  color: #0d6efd !important;
+}
+#contacto .btn-primary:hover {
+  background-color: #080c16;
+  color: #eaecf1;
+}
+#contacto .card {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#contacto .bg-primary {
+  background-color: #011d41;
+  color: #eaecf1;
+}
+#contacto .card-row {
+  position: relative;
+  top: 110px;
+}
+#contacto .back-container {
+  position: relative;
+  top: 100px;
+}
+#contacto .btn-primary {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+#contacto .form-control {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 0;
+  color: #132f4b;
+}
+#contacto .form-label {
+  color: #132f4b;
+}
+#contacto .btn-primary {
+  background-color: #61656f;
+  color: #eaecf1;
+}
+#contacto .text-contact {
+  font-size: 40px;
+  color: #132f4b;
+}
+#contacto .border-danger {
+  border-color: aliceblue !important;
+}
+#contacto .card {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media only screen and (max-width: 600px) {
+  .bg-primary {
+    height: 150vh !important;
+  }
+}
+#main-formulario {
+  background-color: #132f4b;
+  color: #eaecf1;
+  padding: 80px 0;
+}
+#contacto .back-container {
+  position: relative;
+  top: 100px;
+}
