@@ -27,19 +27,7 @@
     /> -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="js/jquery-3.7.1.js"></script>
-    <!-- <script defer>
-      document
-        .getElementById("formulario")
-        .addEventListener("submit", function (event) {
-          event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
-          // Aquí puedes agregar código para enviar los datos del formulario por AJAX si es necesario
 
-          // Simulando un envío exitoso del formulario
-          setTimeout(function () {
-            document.getElementById("formularioCollapse").classList.add("show"); // Mostrar el collapse
-          }, 1000); // Cambia el tiempo (en milisegundos) según lo que necesites
-        });
-    </script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -606,24 +594,19 @@
       document
         .getElementById("formulario")
         .addEventListener("submit", function (event) {
-          event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
+          event.preventDefault();
 
-          // Mostrar el modal
+          // Modal para la confirmacion del envio del formulario
           var myModal = new bootstrap.Modal(
             document.getElementById("formularioModal"),
             {}
           );
           myModal.show();
 
-          // Vaciar los campos del formulario
+          // Vaciar el formulario
           document.getElementById("nombre").value = "";
           document.getElementById("email").value = "";
           document.getElementById("mensaje").value = "";
-
-          // Simulando un envío exitoso del formulario
-          setTimeout(function () {
-            document.getElementById("formularioCollapse").classList.add("show"); // Mostrar el collapse
-          }, 1000); // Cambia el tiempo (en milisegundos) según lo que necesites
         });
     </script>
   </body>
