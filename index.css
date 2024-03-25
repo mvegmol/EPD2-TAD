@@ -224,3 +224,14 @@ figure {
   height: auto;
   vertical-align: middle;
 }
+#sobrenosotros .carousel-caption {
+  background: rgba(0, 0, 0, 0.3);
+}
+#sobrenosotros .carousel-item img {
+  max-height: 500px;
+}
+#servicios .box-shadow {
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+}
