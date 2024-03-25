@@ -235,3 +235,10 @@ figure {
   height: 90px;
   margin-top: -45px;
 }
+#formularioModal div {
+  background-color: #011d41;
+  color: #eaecf1;
+}
+#formularioModal #cerrar {
+  background-color: #132f4b;
+}
