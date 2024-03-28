@@ -1,6 +1,8 @@
 body {
   background-color: #132f4b !important;
   color: #eaecf1 !important;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
   background-color: #011d41;
@@ -44,7 +46,7 @@ footer {
   background-color: #011d41 !important;
 }
 .navbar-nav .nav-link.text-yellow {
-  color: black !important; /* Cambia el color del texto a negro */
+  color: black !important;
 }
 #contacto {
   background-color: #132f4b;
@@ -115,7 +117,7 @@ footer {
     height: 150vh !important;
   }
 }
-#main-formulario {
+#formulario-contacto {
   background-color: #132f4b;
   color: #eaecf1;
   padding: 80px 0;
@@ -228,17 +230,46 @@ figure {
   background: rgba(0, 0, 0, 0.3);
 }
 #sobrenosotros .carousel-item img {
-  max-height: 500px;
+  max-height: 700px;
 }
 #servicios .box-shadow {
   width: 90px;
   height: 90px;
   margin-top: -45px;
 }
-#formularioModal div {
+#avisoFormulario div {
   background-color: #011d41;
   color: #eaecf1;
 }
-#formularioModal #cerrar {
-  background-color: #132f4b;
+#avisoFormulario button {
+  color: #eaecf1;
+}
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+.carousel-item {
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    display: flex;
+  }
+}
+.carousel-slide {
+  flex: 0 0 25%;
 }
