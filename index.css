@@ -15,7 +15,7 @@ body {
   border-color: #eaecf1;
 }
 
-.nav-link .active {
+.nav-link.active {
   color: #61656f !important;
 }
 .dropdown-menu {
