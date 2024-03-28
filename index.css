@@ -15,11 +15,14 @@ body {
   border-color: #eaecf1;
 }
 
-.nav-link.active {
+.nav-link .active {
   color: #61656f !important;
 }
 .dropdown-menu {
   background-color: #011d41 !important;
+}
+.dropdown-menu .dropdown-item.active {
+  color: #61656f !important;
 }
 .dropdown-item {
   color: #eaecf1 !important;
