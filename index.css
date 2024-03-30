@@ -82,7 +82,7 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .p-contacto {
-  color: #011d41;
+  color: #eaecf1;
 }
 #contacto .bg-primary {
   color: #eaecf1;
@@ -108,7 +108,7 @@ footer {
   color: #011d41;
 }
 #contacto .form-label {
-  color: #011d41;
+  color: #eaecf1;
 }
 #contacto .btn-primary {
   background-color: #61656f;
@@ -116,7 +116,7 @@ footer {
 }
 #contacto .text-contact {
   font-size: 40px;
-  color: #011d41;
+  color: #eaecf1;
 }
 
 #contacto .card {
