@@ -60,9 +60,7 @@ body {
 footer {
   background-color: #011d41 !important;
 }
-.navbar-nav .nav-link.text-yellow {
-  color: black !important;
-}
+
 #contacto {
   background-color: #132f4b;
   color: #eaecf1;
@@ -83,8 +81,10 @@ footer {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.p-contacto {
+  color: #011d41;
+}
 #contacto .bg-primary {
-  background-color: #011d41;
   color: #eaecf1;
 }
 #contacto .card-row {
@@ -99,18 +99,16 @@ footer {
   padding: 10px;
   width: 100px;
   border: none;
-  background-color: white;
-  color: black;
 }
 
 #contacto .form-control {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: none;
   border-radius: 0;
-  color: #132f4b;
+  color: #011d41;
 }
 #contacto .form-label {
-  color: #132f4b;
+  color: #011d41;
 }
 #contacto .btn-primary {
   background-color: #61656f;
@@ -118,11 +116,9 @@ footer {
 }
 #contacto .text-contact {
   font-size: 40px;
-  color: #132f4b;
+  color: #011d41;
 }
-#contacto .border-danger {
-  border-color: aliceblue !important;
-}
+
 #contacto .card {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -133,8 +129,6 @@ footer {
   }
 }
 #formulario-contacto {
-  background-color: #132f4b;
-  color: #eaecf1;
   padding: 80px 0;
 }
 #contacto .back-container {
@@ -231,10 +225,7 @@ footer {
 #servicios .text-uppercase {
   text-transform: uppercase;
 }
-#servicios .head-icon {
-  margin-top: 18px;
-  color: #ff4500;
-}
+
 #servicios img,
 figure {
   max-width: 100%;
