@@ -34,7 +34,7 @@ body {
   background-color: #011d41 !important;
 }
 .dropdown-menu .dropdown-item.active {
-  color: #61656f !important;
+  color: #a2a5ae !important;
 }
 .dropdown-item {
   color: #eaecf1 !important;
@@ -279,4 +279,7 @@ figure {
 }
 .carousel-slide {
   flex: 0 0 25%;
+}
+#testimonios h6 {
+  color: #a4c7fe;
 }
